@@ -1,4 +1,6 @@
-Task 2: Stopwatch Application
+#Task 2: Stopwatch Application
+
+
 Project Overview
 This project is a simple Stopwatch application built using HTML, CSS, and JavaScript. The purpose of this project is to demonstrate the ability to create interactive web applications as part of my web developer internship at Prasunet.
 
