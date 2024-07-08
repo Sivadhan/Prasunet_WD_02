@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    height: auto;
+    background-image:url("cllock.jpg");
+    background-repeat:no-repeat;
+    object-fit:centre;
+    margin: 50px;
+    font-family: Arial, sans-serif;
+    background-size:cover;
+}
+
+.stopwatch {
+    background-image:url("clo.png");
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:active {
+    transform: scale(0.98);
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+   
+}
+
+#laps li {
+    background:#f6f6f6;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
